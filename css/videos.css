@@ -1,0 +1,51 @@
+/* Videos */
+.video-section {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--youtube-grey);
+}
+.video-section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/* Flex-wrap didn't render well > Created two seperate flex rows */
+.videos-top {
+    display: flex;
+    justify-content: space-around;
+}
+.videos-bottom {
+    display: flex;
+    justify-content: space-around;
+}
+.videocard {
+    width: 15vw;
+}
+.thumbnail div img {
+    height: 19vh;
+    width: 15vw;
+}
+.video-length {
+    width: 2.3vw;
+    text-align: center;
+    background-color: var(--youtube-black);
+    color: var(--youtube-white);
+    position: relative;
+    bottom: 30px; left: 177px;
+    opacity: 0.7;
+}
+.video-info {
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+.video-title {
+    font-weight: 600;
+    color: var(--youtube-black);
+}
+.viewcount {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--youtube-dark-grey);
+}

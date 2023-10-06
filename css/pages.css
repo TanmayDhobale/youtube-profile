@@ -1,0 +1,26 @@
+/* Channel menu bar */
+.pages {
+    display: flex;
+    background-color: var(--youtube-light-grey);
+}
+.pages nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 900px;
+    margin-bottom: -0.5px;
+}
+.pages nav ul li {
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: var(--youtube-dark-grey);
+}
+#videos-selected {
+    width: 120px;
+    color: var(--youtube-black);
+    background-color: var(--youtube-grey);
+    border-bottom: 4px solid var(--youtube-dark-grey);
+}

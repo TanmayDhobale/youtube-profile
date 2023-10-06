@@ -1,0 +1,26 @@
+/* Full sidebar left */
+.sidebar {
+    display: grid;
+    grid-template-rows: 15% 30% 45%;
+    font-weight: 300;
+    color: var(--youtube-black);
+}
+/* Sub menu's */
+.sidebar div nav {
+    border-bottom: 1px var(--youtube-grey) solid;
+    margin-right: 15px;
+}
+.sidebar div nav ul li {
+    display: flex;
+}
+.sidebar div nav ul li span {
+    margin-left: -20px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.sidebar div nav h4 {
+    margin-left: 20px;
+}
+#dark-mode {
+    margin-left: 20px
+}

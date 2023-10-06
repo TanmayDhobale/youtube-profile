@@ -1,0 +1,9 @@
+:root {
+    font-size: 16px;
+    --youtube-red: #FF0000;
+    --youtube-black: #282828;
+    --youtube-dark-grey: #909090;
+    --youtube-grey: #ccc;
+    --youtube-light-grey: #eee;
+    --youtube-white: #ffffff;
+}

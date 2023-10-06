@@ -1,0 +1,53 @@
+/* Channel info */
+.channel {
+    background-color: var(--youtube-light-grey);
+    display: flex;
+    justify-content: space-between;
+    height: 13vh;
+}
+.channel div {
+    display: flex;
+}
+#mtv-logo {
+    height: 10vh;
+    width: 10vh;
+    border-radius: 100%;
+    margin-top: 1.5vh;
+    margin-left: 30px;
+}
+/* Channel name and subscribers */
+.mtv {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 10px;
+}
+#mtv {
+    color: var(--youtube-black);
+    font-size: 25px;
+    font-weight: 600;
+}
+#check {
+    color: var(--youtube-dark-grey);
+    margin-top: 7px;
+    margin-left: 3px;
+}
+#subscribers {
+    color: var(--youtube-dark-grey);
+    font-size: 12px;
+}
+/* Subscribe button */
+.channel form {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-right: 40px;
+}
+.channel form input {
+    height: 30px;
+    width: 100px;
+    background-color: var(--youtube-red);
+    color: var(--youtube-white);
+    font-weight: 500;
+    border: none;
+}

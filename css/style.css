@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+@import url(../fontawesome-free-6.0.0-beta3-web/css/all.css);
+@import url(./var.css);
+@import url(./header.css);
+@import url(./sidebar.css);
+@import url(./main.css);
+@import url(./channel.css);
+@import url(./pages.css);
+@import url(./videos.css);
+/* Grid: Header/Sidebar/Main */
+body {
+    font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 0.5fr 9.5fr;
+    grid-template-areas: 
+    "menu menu"
+    "left content";
+}
+.header {
+    grid-area: menu;
+}
+.sidebar {
+    grid-area: left;
+}
+.main {
+    grid-area: content;
+}
